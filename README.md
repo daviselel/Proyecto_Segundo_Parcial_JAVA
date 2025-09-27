@@ -17,18 +17,6 @@ Se implementan los conceptos de **Programación Orientada a Objetos (POO)**: enc
 
 ---
 
-## Estructura del Proyecto
-/mi_proyecto/
-├── Main.java
-├── Producto.java
-├── ProductoDerivado.java  (Smartphone, Laptop, Accesorio)
-├── Cliente.java
-├── ArchivoUtil.java
-├── Controlador.java
-└── datos.txt
-
----
-
 ## Clases Principales
 
 ### Producto.java
@@ -36,18 +24,6 @@ Clase base que representa un producto genérico de la tienda.
 - Atributos privados: `id`, `nombre`, `categoria`, `precio`, `stock`.  
 - Getters y setters para acceso controlado.  
 - Método `toString()` para guardar productos en archivo.
-
-### ProductoDerivado.java
-Clases hijas que heredan de `Producto`:
-- `Smartphone` → atributo extra: `iosVersion`.  
-- `Laptop` → atributo extra: `chip`.  
-- `Accesorio` → atributo extra: `compatibilidad`.  
-Polimorfismo: sobrescriben `getDetalles()` para mostrar atributos propios.
-
-### Cliente.java
-Representa a un cliente de la tienda.  
-- Atributos: `id`, `nombre`, `correo`.  
-- Método `toString()` para presentación.
 
 ### CRUDProductos.java
 Clase que maneja todas las operaciones CRUD sobre productos en `productos.txt`.  
