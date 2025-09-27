@@ -1,3 +1,10 @@
+/*
+    Chimaltenango, Septiembre de 2025
+    Descipción: Proyecto Segundo Parcial
+    Programador: Brian David Argueta Elel
+    Carnet: 1990-24-16975
+    Programacion 2
+ */
 package AppleStore;
 import java.io.*;
 import java.util.*;
