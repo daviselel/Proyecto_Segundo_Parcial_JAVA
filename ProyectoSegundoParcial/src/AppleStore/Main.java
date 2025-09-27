@@ -1,3 +1,10 @@
+/*
+    Chimaltenango, Septiembre de 2025
+    Descipción: Proyecto Segundo Parcial
+    Programador: Brian David Argueta Elel
+    Carnet: 1990-24-16975
+    Programacion 2
+ */
 package AppleStore;
 // Importa las clases necesarias para manejar listas y entrada de datos
 import java.util.*;
